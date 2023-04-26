@@ -47,9 +47,9 @@ public class DANI extends PApplet {
 	}
 
 	// finds a word in model that checks if it exists
-	public void findWord(String str) {
+	public void findWord(String word) {
 		for (String line : sonnet) {
-			if (line.contains(str)) {
+			if (line.contains(word)) {
 				System.out.println();
 			}
 		}
