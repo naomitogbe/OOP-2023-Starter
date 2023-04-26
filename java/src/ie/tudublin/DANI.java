@@ -48,7 +48,7 @@ public class DANI extends PApplet {
 
 	// finds a word in model that checks if it exists
 	public void findWord(String str) {
-		for (String line : follows) {
+		for (String line : sonnet) {
 			if (line.contains(str)) {
 				System.out.println();
 			}
@@ -57,7 +57,7 @@ public class DANI extends PApplet {
 
 	// prints the text in the text file
 	public void printModel() {
-		for (String line : follows) {
+		for (String line : "shakespeare.txt") {
 			System.out.println(line);
 		}
 	}
