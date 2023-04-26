@@ -12,12 +12,6 @@ public class Follow
         this.count = count;
     }
 
-    // returns word and count variables as a string 
-    public String toString()
-    {
-        return word + count;
-    }
-
     // accessor method getWord() allows other classes to access the value of the word variable
     public String getWord()
     {
@@ -29,4 +23,11 @@ public class Follow
     {
         return count;
     }
+
+     // returns word and count variables as a string 
+     public String toString()
+     {
+         return word + count;
+     }
+ 
 }
